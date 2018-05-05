@@ -1,0 +1,205 @@
+.sudoku-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.sudoku-cell-color {
+    background-color: #99d5f7 !important;
+    /* display: flex; */
+}
+
+.sudoku-puzzle-300 {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.sudoku-puzzle-600 {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.sudoku-puzzle-900 {
+    margin: auto;
+    width: 900px;
+    height: 900px;
+    padding-top: 20px;
+}
+
+.sudoku-cell {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    outline: 1px solid #76abc9;
+    background-color: gainsboro;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.sudoku-cell-btn-help {
+    border: none;
+    color: #76abc9;
+    background-color: transparent;
+    align-self: flex-end;
+    outline: none;
+}
+
+.sudoku-cell-btn-help:hover {
+    cursor: pointer;
+    color: #1772a5;
+}
+
+.sudoku-cell-number {
+    padding-top: 12px;
+    font-size: 60px;
+    align-self: center;
+    color: #307499;
+}
+
+.sudoku-cell-number-input {
+    font-size: 60px;
+    border: none;
+    background-color: transparent;
+    color: #307499;
+    margin: auto;
+    width: 50%;
+}
+
+.popUp {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 12px;
+    border: 1px;
+    border-radius: 2%;
+    box-shadow: -0.7px 0.7px 8px 0 rgba(0, 0, 0, 0.25);
+    z-index: 5;
+}
+
+.sudoku-cell-last {
+    background-color: #edd3da;
+}
+
+.sudoku-avialable-zero {
+    background-color: purple;
+}
+
+.sudoku-cell-btn-return {
+    border: none;
+    color: #76abc9;
+    background-color: transparent;
+    align-self: flex-start;
+    outline: none;
+}
+
+.sudoku-cell-btn-return:hover {
+    cursor: pointer;
+    color: #1772a5;
+}
+
+.ai-btn {
+    width: 200px;
+    height: 75px;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: #76abc9;
+    color: white;
+    border: none;
+}
+
+.ai-btn:hover {
+    cursor: pointer;
+    background-color: #1772a5;
+}
+
+.sudoku-left-side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+}
+
+.sudoku-legend {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 200px;
+    font-size: 20px;
+}
+
+.legend-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.sudoku-legend-span {
+    display: flex;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.sudoku-legend-title {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.sudoku-few-choices {
+    background-color: gainsboro;
+}
+
+.cong-msg {
+    font-family: cursive;
+    font-size: 100px;
+}
+
+.play-again-btn {
+    border: none;
+    width: 500px;
+    height: 150px;
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+    margin-top: 200px;
+}
+
+.play-again-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.rules {
+    font-size: 25px;
+    font-family: cursive;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.have-fun {
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+}
+
+.back-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    background-color: transparent;
+}
+
+.back-btn:hover {
+    cursor: pointer;
+    color: bisque;
+}

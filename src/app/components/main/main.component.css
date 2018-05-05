@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-btn {
+    border: none;
+    width: 500px;
+    height: 150px;
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+    margin-top: 200px;
+    align-self: center;
+}
+
+.main-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
